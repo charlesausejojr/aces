@@ -1,0 +1,103 @@
+.interact{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    height: 800px;
+    margin-bottom: 0;
+}
+.interact__card{
+    height: 700px;
+}
+.interact h1{
+    border-bottom: 2px solid black;
+}
+.interact__questions{
+    flex: 0.65;
+    position: relative;
+    height: 550px;
+    overflow: scroll;
+}
+.interact__questions h3{
+    background: rgb(194,190,145);
+    background: radial-gradient(180deg, rgba(194,190,145,0.908000700280112) 0%, rgba(131,175,80,0.38699229691876746) 100%);
+    margin: 10px;
+    padding: 8px;
+    border-radius: 15px;
+    padding-left: 20px;
+    padding-top: 25px;
+    display: flex;
+    text-align: center;
+    box-shadow: 0px 5px 8px -9px rgba(0, 0, 0, 0.75);
+}
+.interact__questions h3:hover{
+    background-color: #f2f4c0;
+    border-left: 6px solid #f2f4c0;;
+    cursor: pointer;
+}
+.interact__questions::-webkit-scrollbar{
+    display: none;
+}
+.interact__input > form > button {
+    display: none;
+}
+.interact__input{
+    background-color: #c2be91;
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    padding: 10px 20px;
+    box-shadow: 0px 5px 8px -9px rgba(0, 0, 0, 0.75);
+}
+.interact__right{
+    flex: 1;
+}
+.interact__right > .interact__input{
+    margin: 10px;
+}
+.interact__input > form{
+    flex: 1;
+}
+.interact__input > form > input{
+    width: 98%;
+    padding: 10px;
+    border: none;
+    border-radius: 30px;
+    outline-style: none;
+    background-color: #f4f4f4;
+}
+.timestamp{
+    position: absolute;
+    font-size: 10px;
+}
+.interact__questions > .interact__questionLink{
+    text-decoration: none;
+    color: black;
+}
+.interact__qna{
+    display: flex;
+}
+.interact__answers{
+    border-top: 10px solid #8f384d; 
+    background-color: #c2be91;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px 10px 15px 15px;
+    flex: 1;
+    height: 420px;
+    overflow: scroll;
+    box-shadow: 0px 5px 8px -9px rgba(0, 0, 0, 0.75);
+}
+.interact__answers > .interact__answerInfo {
+    height: 340px;
+    flex: 1;
+}
+.interact__reminder{
+    font-size: small;
+    margin-left: 10px;
+    color: gray;
+}
+.interact__input > .MuiIconButton-root{
+    padding-left: 0;
+    padding-right: 6px;
+    margin: 0;
+}

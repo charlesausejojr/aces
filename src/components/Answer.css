@@ -1,0 +1,22 @@
+.answer{
+    display: flex;
+    flex-direction: column;
+    background-color: #f2f4c0;
+    padding: 8px;
+    border-radius: 15px;
+    margin-bottom: 5px;
+}
+.answer__info{
+    display: flex;
+    align-items: center;
+}
+.answer__info > h4{
+    margin-left: 5px;
+}
+.answer__info > small {
+    font-size: x-small;
+    margin-left: 20px;
+}
+.answer__message{
+    padding: 8px;
+}

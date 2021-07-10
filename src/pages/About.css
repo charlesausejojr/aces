@@ -1,0 +1,19 @@
+.about{
+    border-top: 10px solid #3d7ea6;
+    border-radius: 10px;
+    margin: 20px;
+    margin-bottom: 0;
+    height: 100vh;
+}
+.about h1{
+    border-bottom: 2px solid black;
+}
+.about__us{
+    padding: 20px;
+    padding-top: 25px;
+}
+.about__logos{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}

@@ -1,0 +1,25 @@
+.post{
+    display: flex;
+    flex-direction: column;
+    border-top: 10px solid #3d7ea6;
+}
+.post__top{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.post__info{
+    display: flex;
+    flex-direction: column;
+    margin-left: 8px;
+}
+.post__middle{
+    margin: 0 30px 20px 30px;
+    overflow-wrap: break-word;
+}
+.post__bottom{
+    padding: 0;
+}
+.post__bottom > img {
+    width: 100%;
+}
